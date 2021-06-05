@@ -14,14 +14,14 @@ h1,h2{
   font-family: 'Archivo Black', sans-serif;
 }
 p,h3,button{
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif;
 }
 .info p {
   font-size: 2rem;
 
 }
 #home{
-  background-color: #ecf0f3;
+  background-color:transparent;
 }
 
 .circle{
@@ -44,7 +44,7 @@ p,h3,button{
   outline: none;
   border-radius: 5px;
   margin-top: 3rem;
-  padding: 6px 15px;
+  padding: 6px 20px;
   cursor: pointer;  
 }
 .hire:hover{
@@ -52,4 +52,21 @@ p,h3,button{
   border: 2px solid #761278;
   outline: none;
   font-weight: 900;
+}
+.info{
+  position: relative;
+}
+
+.shape{
+  width: 400px;
+  position:absolute;
+  height: 300px;
+  background-color: #761278;
+  left: 400px;
+  border-radius: 80% 10% 100% 50%;
+  z-index: -1;
+  }
+.profile{
+  position: absolute;
+  z-index: 1;
 }
