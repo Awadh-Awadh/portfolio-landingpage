@@ -32,10 +32,9 @@ p,h3,button{
   background-color:transparent;
 }
 
-.circle{
+.logo{
   width: 50px;
   height: 50px;
-  background-color: #761278;
   border-radius: 50%;
 }
 
@@ -116,13 +115,8 @@ p,h3,button{
 .heads{
     margin: 5rem 0;
   }
-.icons{
-  display: flex;
-  align-content: center;
-  align-items: center;
-}
 .icon{
-  padding: 3rem 3rem;
+  padding: 0 2rem;
   font-size: 1.5rem;
   cursor: pointer; 
   }
@@ -149,5 +143,13 @@ p,h3,button{
     opacity: 1;
     font-size: 2rem;
     transform:rotate(360deg);
-
+  }
+  .imgcontact{
+    width: 150px;
+    height: 150px;
+     }
+  footer{
+    text-align: center;
+    background-color: #761278;
+    padding: 2rem 0;
   }
