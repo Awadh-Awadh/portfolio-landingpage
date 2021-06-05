@@ -91,5 +91,12 @@ p,h3,button{
 }
 .about{
   padding:0 2rem;
-
+}
+.imgprojects{
+  width: 400px;
+  height:400px;
+}
+.description{
+  text-align: center;
+  padding: 2rem 0;
 }
