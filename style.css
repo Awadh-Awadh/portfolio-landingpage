@@ -45,17 +45,17 @@ p,h3,button{
 .container-fluid{
   padding:20% 20%
 }
-.hire{
+.hire,.check{
   background-color: #761278;
   outline: none;
   border:none;
   outline: none;
   border-radius: 5px;
   margin-top: 3rem;
-  padding: 6px 20px;
+  padding: 6px 30px;
   cursor: pointer;  
 }
-.hire:hover{
+.hire:hover,.check:hover{
   background-color: transparent;
   border: 2px solid #761278;
   outline: none;
@@ -89,14 +89,65 @@ p,h3,button{
   width: 300px;
   height: 300px;
 }
-.about{
+.about,.project{
   padding:0 2rem;
 }
 .imgprojects{
   width: 400px;
   height:400px;
+  transition: all 1s ease;
+  
 }
+
 .description{
   text-align: center;
   padding: 2rem 0;
 }
+
+
+.imgprojects:hover{
+  opacity: 0.6;
+  cursor:pointer;
+  position: relative;
+  top: -8px;
+  width: 350px;
+  height: 350px;
+  }
+.heads{
+    margin: 5rem 0;
+  }
+.icons{
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.icon{
+  padding: 3rem 3rem;
+  font-size: 1.5rem;
+  cursor: pointer; 
+  }
+  
+  
+  .fb,.tg{
+  color: #03256c;
+  transition: all 1s ease;
+  opacity: 0.6;
+  }
+  .tw{
+    color:#2978b5;
+    opacity: 0.6;
+    transition: all 1s ease;
+  }
+
+  .ig{
+    color:#cf0000;
+    opacity:0.6;
+    transition: all 1s ease;
+  }
+  
+  .tw:hover,.fb:hover,.tg:hover,.ig:hover{
+    opacity: 1;
+    font-size: 2rem;
+    transform:rotate(360deg);
+
+  }
