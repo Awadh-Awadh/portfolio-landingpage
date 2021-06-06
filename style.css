@@ -161,3 +161,30 @@ h4{
     background-color: #761278;
     padding: 2rem 0;
   }
+  #about[data-scroll] {
+    transition: opacity 1s ease;
+  }
+  #about[data-scroll="in"] {
+    opacity: 1;
+  }
+  #about[data-scroll="out"] {
+    opacity: 0;
+  }
+  #projects[data-scroll] {
+    transition: opacity 1s ease;
+  }
+  #projects[data-scroll="in"] {
+    opacity: 1;
+  }
+  #projects[data-scroll="out"] {
+    opacity: 0;
+  }
+  #contact[data-scroll] {
+    transition: opacity 1s ease;
+  }
+  #contact[data-scroll="in"] {
+    opacity: 1;
+  }
+  #contact[data-scroll="out"] {
+    opacity: 0;
+  }
