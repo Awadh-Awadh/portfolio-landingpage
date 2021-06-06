@@ -23,7 +23,7 @@ This is a project that potrays everything about me,my projects, and my contact i
 * JavaScript
 
 ## LiveLink
-
+https://awadh-awadh.github.io/portfolio-landingpage/
 ## Known Bugs 
 
 There are no known bugs at the moment but if any spotted you can reach me at awadhsaid84@gmail.com
