@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding:0;
   box-sizing: border-box;
-}
+  }
 h2{
   color: #761278;
   font-weight: 600;
@@ -28,8 +28,16 @@ p,h3,button{
   font-size: 2rem;
 
 }
+h4{
+  font-family: sans-serif;
+  margin-bottom: 1.3rem;
+  font-weight: 400;
+}
 #home{
   background-color:transparent;
+}
+#about,#contact{
+  background-color: #ecf0f3;
 }
 
 .logo{
@@ -42,7 +50,7 @@ p,h3,button{
   font-size: 2rem;
 }
 .container-fluid{
-  padding:20% 20%
+  padding:20% 20%;
 }
 .hire,.check{
   background-color: #761278;
@@ -113,7 +121,7 @@ p,h3,button{
   height: 350px;
   }
 .heads{
-    margin: 5rem 0;
+    margin: 6rem 0;
   }
 .icon{
   padding: 0 2rem;
