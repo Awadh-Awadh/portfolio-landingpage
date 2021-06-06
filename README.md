@@ -18,7 +18,7 @@ This is a project that potrays everything about me,my projects, and my contact i
 
 ## Technologies Used
 * HTML
-*Bootstrap
+* Bootstrap
 * CSS
 * JavaScript
 
